@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding:0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 5px solid blue;
+}
+
+.logo-style {
+    flex: 1;
+}
+
+.logo {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content:flex-start;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+    margin-left: 50px;
+    border: 1px solid blue;
+    background-color: blue;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
+
+footer {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    color: blue;
+    justify-content: space-between;
+    border: 2px solid blue;
+}
+#socialmedia_pages,
+#location_contact {
+    display: inline-block;
+    vertical-align: top; /* Align the divs to the top of the line */
+    margin-right: 20px; /* Add some spacing between the divs */
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #333; /* Change the color as needed */
+}
+
+.social-icons img {
+    width: 70px; /* Adjust the size of the icons as needed */
+    height: 70px;
+}

@@ -1,0 +1,365 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding:100px;
+    
+}
+body {
+  margin-left: 20px;
+}
+#content{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+#content {
+  margin: 20px; /* Adjust the margin as needed */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 5px solid blue;
+}
+
+.logo-style {
+    flex: 1;
+}
+
+.logo {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    justify-content:flex-start;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+    margin-left: 50px;
+    border: 1px solid blue;
+    background-color: blue;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
+
+footer {
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    color: blue;
+    justify-content: space-between;
+    border: 2px solid blue;
+}
+#socialmedia_pages,
+#location_contact {
+    display: inline-block;
+    vertical-align: top; /* Align the divs to the top of the line */
+    margin-right: 20px; /* Add some spacing between the divs */
+}
+
+#location_contact p {
+     margin: 5px 0; /* Add some vertical spacing between paragraphs */
+        }
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: #333; /* Change the color as needed */
+}
+
+.social-icons img {
+    width: 70px; /* Adjust the size of the icons as needed */
+    height: 70px;
+}
+
+#sending {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+#from_nuba {
+    flex: 1;
+}
+
+#from_nuba p {
+    margin: 10px 10px;
+    color: black;
+}
+
+#from_nuba img {
+    max-width: 150px;
+    height: 200px;
+    border: solid blue 2px;
+}
+/* #sending , #receiving{
+    border: solid blue 2px;
+    margin-left: 0px;
+} */
+
+#receiving h2 p h6 img{
+    margin-left: 10px;
+
+}
+#sending h2 p h6{
+    margin-left: 10px;
+
+}
+#from_nuba,  #out_nuba{
+    color: skyblue;
+    
+}
+#Mission h1, #services h2{
+    color: white;
+    border: 5px;
+    background-color: rgb(8, 170, 234);
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+p{
+    color: #333;
+    font-weight: 100px;
+    font-weight: bold;
+}
+#receiving h3{
+    color: white;
+    border: 5px;
+    background-color: rgb(4, 169, 235);
+    width: 318px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#from_nuba h2, #out_nuba h2{
+    color: white;
+    border: 5px;
+    background-color: rgb(7, 159, 219);
+    width: 800px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#fees h2{
+    color: white;
+    border: 5px;
+    background-color: white;
+    width: 900px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#answer h2{
+    border:5px;
+    width:500px;
+    height: 50px;
+}
+
+h2 {
+    white-space: nowrap;
+  }
+#services h2{
+    color: white;
+    border: 2px solid;
+    background-color: rgb(6, 158, 218);
+
+}
+/* button styling */
+
+/* h1, h2, p {
+    margin: 0;
+    padding: 0;
+  } */
+  
+  body {
+    color: COOL skyblue;
+    font-family: 'PT Sans', sans-serif;
+    padding: 50px 0;
+  }
+  
+  h1, h2, h3, h4 {
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 1em;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    font-size: 130%;
+  }
+  
+  .invisible {
+    color: skyblue;
+  }
+  
+  .container {
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .top {
+    background: skyblue;
+  }
+  
+  .bottom {
+    background: #AABCCC;
+  }
+  
+  p {
+    margin-bottom: 1em;
+  }
+  
+  /* Forms */
+  input[type="text"] {
+    height: 38px;
+    padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+    background-color: white;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+    text-align: center;
+    width: 80px;
+  }
+  
+  input[type="text"]:focus {
+    border: 1px solid #33C3F0;
+    outline: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: .5rem;
+    font-weight: 600;
+  }
+  
+  /* Buttons */
+  .button,
+  button,
+  input[type="submit"],
+  input[type="reset"],
+  input[type="button"] {
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    color: black;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    box-sizing: border-box;
+  }
+  
+  .button:hover,
+  button:hover,
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  input[type="button"]:hover,
+  .button:focus,
+  button:focus,
+  input[type="submit"]:focus,
+  input[type="reset"]:focus,
+  input[type="button"]:focus {
+    color: #333;
+    border-color: #888;
+    outline: 0;
+  }
+  
+  .button.button-primary,
+  button.button-primary,
+  input[type="submit"].button-primary,
+  input[type="reset"].button-primary,
+  input[type="button"].button-primary {
+    color: #FFF;
+    background-color: #33C3F0;
+    border-color: #33C3F0;
+  }
+  
+  .button.button-primary:hover,
+  button.button-primary:hover,
+  input[type="submit"].button-primary:hover,
+  input[type="reset"].button-primary:hover,
+  input[type="button"].button-primary:hover,
+  .button.button-primary:focus,
+  button.button-primary:focus,
+  input[type="submit"].button-primary:focus,
+  input[type="reset"].button-primary:focus,
+  input[type="button"].button-primary:focus {
+    color: #FFF;
+    background-color: #1EAEDB;
+    border-color: #1EAEDB;
+  }
+
+  /* About section */
+  .online{
+    border: 1px solid blue;
+    margin-left: 200px;
+    margin-right: 1000px;
+}
+.online p{
+    margin-left: 25px;
+    font-weight: bold;
+    color: blue;
+    
+}
+.online img{
+    margin-left: 25px;
+    height: 200px;
+    width: 200px;
+}
+
+/* #out_nuba p {
+  text-transform: uppercase;
+} */
+
